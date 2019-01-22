@@ -7,6 +7,7 @@
 인터페이스 (Interface)
 구체적인 바디를 구현해 놓은 것이 아닌 틀만 제공
 implement
+인터페이스 내부 메소드는 항상 public
 
 subclassing - 부모자식간의 상속관계
 subtyping - 자식과 인터페이스간의 연결관계
