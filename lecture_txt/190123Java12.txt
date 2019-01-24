@@ -37,5 +37,7 @@ main 을 원활하게 종료시키기 위해 사용
 Error - 메모리 오류, 물리적 오류 등 프로그래머가 손댈 수 없는 복구 불가능 오류
 Exception - 실행 도중 발생한 오류가 아닌 예외적인 상황. 프로그래머가 처리 해야하는 영역
 Exception - Exception (Compile) (checked) 계열 / Runtime (Runtime) (unChecked) 계열로 나누어짐
-Exception 계열은 컴파일 시점에 에러가 발생할 수 있음을 체크
-Runtime 계열은 실행 도중에 발생할 수 있는 오류들
+Exception 계열은 컴파일 시점에 에러가 발생할 수 있음을 체크  IOException(), Exception()
+Runtime 계열은 실행 도중에 발생할 수 있는 오류들 RuntimeException(), NullPointException(), ArithmeticException(), IndexOutOfBoundException()
+
+
