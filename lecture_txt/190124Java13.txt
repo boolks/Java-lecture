@@ -20,5 +20,16 @@ String sss = new String("aaa");
 StringBuffer : 가변 객체
 StringBuffer buffer = new StringBuffer("test");
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Static / Non-Static(멤버 변수, 멤버 메소드)
+
+Non-Static : new xxx() . 형식으로 사용
+Static : new 생성자 키워드를 사용하지 않아도 사용할 수 있는 키워드
+
+Static -> Non-Static (x) 사용하지 못함 
+Non-static -> Static (O) 사용할 수 있음 
+
+
 Comparator
 Thread
