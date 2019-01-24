@@ -2,5 +2,23 @@
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 String
+
+String -> StringBuffer -> StringBuilder
+String는 가장 느리며 비용이 많이 듦. 불변이기 때문에 계속해서 만들어야 하므로 자원낭비가 심함
+StringBuffer는 가변적이므로 성능이 좋음
+데이터 신뢰성이 필요한 멀티 스레드에 사용
+StringBuilder가 가장 속도가 빠르지만 String과 StringBuffer는 데이터 동기화가 가능하지만 StringBuilder는 비동기식임
+싱글스레드에 사용됨
+
+String은 constant 이며 immutable함
+substring(beginIndex, endIndex) : beginIndex 부터 endIndex-1 까지 문자열을 자름
+""로 저장할 때는 상수풀에 String 내용을 저장
+String ss = "aaa";
+new로 저장할 때는 새로운 주소에 String 문자열을 저장
+String sss = new String("aaa");
+
+StringBuffer : 가변 객체
+StringBuffer buffer = new StringBuffer("test");
+
 Comparator
 Thread
